@@ -1,0 +1,231 @@
+
+
+#eng{
+    animation:eng 2s infinite ;
+}
+
+#mal{
+    animation:mal 2s infinite;
+    position:absolute;
+}
+
+#hindi{
+    animation:hindi 2s infinite;
+    position:absolute;
+
+}
+
+
+
+@keyframes eng{
+    0%,33%{
+        opacity:1;
+        transform: translatex(-10px);
+
+    }
+    34%,100%{
+        opacity:0
+    }
+}
+
+@keyframes mal{
+    0%,33%{
+        opacity:0
+    }
+    34%,66%{
+        opacity:1;
+        transform: translatex(-10px);
+    }
+    67%,100%{
+        opacity:0
+    }
+}
+
+@keyframes hindi{
+    0%,66%{
+        opacity:0
+    }
+    67%,100%{
+        opacity:1
+    }
+}
+
+
+.name{
+    background-color: white;
+
+    background-size:100px;
+    background-position: center;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+html, body {
+    min-height: 100%;
+    height: auto;
+    overflow-y: auto;
+}
+
+.about-section {
+    transition:all 0.4s ease;
+}
+
+.about-section:hover {
+    transform: translateY(-15px);
+    border:2px solid;
+    background-color: rgba(27, 102, 102, 0.557) !important;
+    box-shadow: 10px 10px 30px rgba(157, 13, 193, 0.449);
+}
+
+.skills-section {
+    transition:all 0.4s ease;
+}
+
+.skills-section:hover {
+    border:2px solid;
+    background-color:rgba(27, 102, 102, 0.557)!important;
+    box-shadow: 0 10px 30px rgba(163, 13, 193, 0.449);
+}
+
+
+
+.cards {
+    color:rgb(0, 124, 232);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.cards:hover {
+    transform: translateY(-20px);
+    transform: translatex(20px);
+    background-color: rgba(10, 119, 235, 0.25) !important;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pills{
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+.pills:hover{
+    border-color: rgb(255, 0, 0) !important;
+    transform:translateX(5px)
+}
+
+.cols{
+    transition: 1s ease;
+}
+.cols:hover{
+    transform: translateY(-20px);
+}
+
+.edu{
+    transition: 1s ease;
+}
+.edu:hover{
+    transform: translatex(100px);
+
+}
+
+.text{
+font-family: 'Audiowide', sans-serif;
+animation: text 8s infinite;
+}
+
+.navs{
+font-family: 'Orbitron', sans-serif;
+
+}
+.navs:hover{
+    font-size:20px;
+}
+.portfolio:hover{
+    font-size:40px
+}
+
+
+.fonts{
+font-family: 'Orbitron', sans-serif;
+
+}
+
+.connect{
+    border-radius: 10px;
+}
+
+#footer{
+    color:rgb(184, 244, 2);
+    text-decoration: None;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+#footer:hover{
+    color:cornsilk
+
+}
+
+@media (max-width: 767px) {
+    .about-section,
+    .skills-section,
+    .education-section,
+    .project-section {
+        margin-left: 1px !important;
+        width: auto;
+    }
+}
+
+
+a:hover{
+    color:white !important;
+}
+
+
+
+.button:hover{
+    background-color:white !important;
+    color: black !important;
+}
+
+.moda{
+    background-color: rgb(2, 2, 2);
+}
+.contact{
+    transition: 1s ease;
+
+}
+
+.contact:hover{
+    transform: translatex(50px);
+}
+
+#c:hover,
+#p:hover,
+#s:hover,
+#h:hover,
+#a:hover,
+#i:hover,
+#l:hover,
+#m:hover,
+#o:hover,
+#e:hover,
+#d:hover{
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
